@@ -20,7 +20,7 @@ public class ClientSocket01 {
      * @param args the command line arguments
      */
      public static void main(String[] args) {
-        try {
+       try {
             Socket clientSocket = new Socket("10.1.33.200", 5000);
             PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
             BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
