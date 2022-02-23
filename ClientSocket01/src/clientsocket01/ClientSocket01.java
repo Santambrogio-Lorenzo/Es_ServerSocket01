@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package clientsocket01;
+
 import java.io.*;
 import java.net.*;
 import java.util.Scanner;
