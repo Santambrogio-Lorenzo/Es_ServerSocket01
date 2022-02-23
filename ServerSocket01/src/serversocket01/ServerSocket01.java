@@ -5,6 +5,8 @@
  */
 package serversocket01;
 
+import javax.xml.crypto.dsig.SignedInfo;
+
 /**
  *
  * @author santambrogio.lorenzo
@@ -15,7 +17,7 @@ public class ServerSocket01 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+     
     }
     
 }
